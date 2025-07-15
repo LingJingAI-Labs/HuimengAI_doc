@@ -30,16 +30,9 @@ echo "打镜像中..."
 echo "镜像: $image"
 echo "Dockerfile: ./bin/$env/Dockerfile "
 
-# 根据系统类型选择构建方式
-if [[ "$OSTYPE" == "darwin"* ]] && docker buildx version >/dev/null 2>&1; then
-    # macOS系统且支持buildx则使用多平台构建
-    echo "检测到macOS系统，尝试多平台构建..."
-    docker buildx build --platform linux/amd64,linux/arm64 -t $image -f ./bin/$env/Dockerfile .
-else
-    # Windows系统或其他情况使用单平台构建
-    echo "使用单平台构建..."
-    docker build -t $image -f ./bin/$env/Dockerfile .
-fi
+# 使用单平台构建（避免多平台构建兼容性问题）
+echo "使用单平台构建..."
+docker build -t $image -f ./bin/$env/Dockerfile .
 
 docker tag $image $image_latest
 echo "打镜像完成..."

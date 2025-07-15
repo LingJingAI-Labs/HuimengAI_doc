@@ -4,7 +4,7 @@ FROM nginx:1.23.0
 WORKDIR /
 
 # 复制构建好的前端文件到 Nginx 默认的网页根目录
-COPY ./dist /usr/share/nginx/html
+COPY ./docs/.vitepress/dist /usr/share/nginx/html
 
 # 复制 Nginx 配置文件（可选）
 COPY ./bin/nginx.conf /etc/nginx/conf.d/default.conf
