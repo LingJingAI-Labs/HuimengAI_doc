@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,a1 as n}from"./chunks/framework.Dz2Wi2T-.js";const p=JSON.parse('{"title":"法律条款","description":"","frontmatter":{},"headers":[],"relativePath":"legal/index.md","filePath":"legal/index.md"}'),i={name:"legal/index.md"};function l(o,a,s,g,h,c){return t(),r("div",null,a[0]||(a[0]=[n("",8)]))}const _=e(i,[["render",l]]);export{p as __pageData,_ as default};
