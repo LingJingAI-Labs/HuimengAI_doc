@@ -29,7 +29,7 @@ echo "Dockerfile: ./bin/$env/Dockerfile "
 
 # 使用单平台构建（避免多平台构建兼容性问题）
 echo "使用单平台构建..."
-docker build -t $image -f ./bin/$env/Dockerfile .
+docker build --platform=linux/amd64 -t $image -f ./bin/$env/Dockerfile .
 
 echo "打镜像完成..."
 docker push $image
