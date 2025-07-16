@@ -1,0 +1,1 @@
+import{_ as i,c as o,o as r,a1 as t}from"./chunks/framework.Dz2Wi2T-.js";const d=JSON.parse('{"title":"常见问题","description":"","frontmatter":{},"headers":[],"relativePath":"guide/faq.md","filePath":"guide/faq.md"}'),n={name:"guide/faq.md"};function p(s,l,g,a,u,e){return r(),o("div",null,l[0]||(l[0]=[t("",324)]))}const c=i(n,[["render",p]]);export{d as __pageData,c as default};
