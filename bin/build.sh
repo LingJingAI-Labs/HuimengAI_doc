@@ -21,10 +21,7 @@ git fetch origin $branch
 git checkout $branch
 git pull origin $branch
 
-git_hash=`git rev-parse --short $branch`
-
-image="registry.cn-hangzhou.aliyuncs.com/$namespace/$name:$branch-$env-$git_hash"
-image_latest="registry.cn-hangzhou.aliyuncs.com/$namespace/$name:$env-latest"
+image="registry.cn-hangzhou.aliyuncs.com/$namespace/$name:$branch-$env-latest"
 
 echo "打镜像中..."
 echo "镜像: $image"
@@ -34,8 +31,6 @@ echo "Dockerfile: ./bin/$env/Dockerfile "
 echo "使用单平台构建..."
 docker build -t $image -f ./bin/$env/Dockerfile .
 
-docker tag $image $image_latest
 echo "打镜像完成..."
 docker push $image
-docker push $image_latest
 echo "推镜像完成..."

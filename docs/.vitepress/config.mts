@@ -5,21 +5,24 @@ export default defineConfig({
   title: "绘梦AI",
   description: "专业AI动画创作一站式平台",
   ignoreDeadLinks: true,
+  head: [
+    ['link', { rel: 'icon', href: '/logo.svg' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/getting-started' },
-      { text: '功能介绍', link: '/features/' },
       { text: '用户指南', link: '/guide/' },
-      { text: '费用', link: '/credits/' }
+      { text: '费用', link: '/credits/' },
+      { text: '法律条款', link: '/legal/' }
     ],
 
     sidebar: {
       '/guide/': [
         {
-          text: '用户指南',
+          text: '基础指南',
           items: [
             { text: '指南概述', link: '/guide/' },
             { text: '系统要求', link: '/getting-started#系统要求' },
@@ -29,9 +32,7 @@ export default defineConfig({
             { text: '任务管理', link: '/guide/tasks' },
             { text: '常见问题', link: '/guide/faq' }
           ]
-        }
-      ],
-      '/features/': [
+        },
         {
           text: '项目后台',
           items: [
@@ -51,6 +52,15 @@ export default defineConfig({
             { text: '关键帧选择', link: '/features/keyframe-selection' },
             { text: '视频生成', link: '/features/video-generation' },
             { text: '视频对口型', link: '/features/lip-sync' }
+          ]
+        }
+      ],
+      '/legal/': [
+        {
+          text: '法律条款',
+          items: [
+            { text: '用户协议', link: '/legal/user-agreement' },
+            { text: '隐私政策', link: '/legal/privacy-policy' }
           ]
         }
       ],
