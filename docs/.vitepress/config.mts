@@ -60,7 +60,8 @@ export default defineConfig({
           text: '法律条款',
           items: [
             { text: '用户协议', link: '/legal/user-agreement' },
-            { text: '隐私政策', link: '/legal/privacy-policy' }
+            { text: '隐私政策', link: '/legal/privacy-policy' },
+            { text: '付费服务协议', link: '/legal/payment-policy' }
           ]
         }
       ],
