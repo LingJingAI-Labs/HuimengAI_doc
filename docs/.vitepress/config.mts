@@ -15,6 +15,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/getting-started' },
       { text: '用户指南', link: '/guide/' },
+      { text: '更新日志', link: '/changelog/' },
       { text: '费用', link: '/credits/' },
       { text: '法律条款', link: '/legal/' }
     ],
@@ -72,14 +73,36 @@ export default defineConfig({
             { text: '积分参考', link: '/credits/' }
           ]
         }
+      ],
+      '/changelog/': [
+        {
+          text: '更新日志',
+          items: [
+            { text: '版本历史', link: '/changelog/' }
+          ]
+        }
+      ],
+      '/features/': [
+        {
+          text: '功能介绍',
+          items: [
+            { text: '功能概览', link: '/features/' },
+            { text: '项目管理', link: '/features/project-management' },
+            { text: '素材拆解', link: '/features/material-analysis' },
+            { text: '基础设定', link: '/features/basic-settings' },
+            { text: '分镜编辑', link: '/features/storyboard-editing' },
+            { text: '图像生成', link: '/features/image-generation' },
+            { text: '视频生成', link: '/features/video-generation' }
+          ]
+        }
       ]
     },
 
 
 
     footer: {
-      message: '专业的 AI动漫创作平台',
-      copyright: 'Copyright © 2025 绘梦AI团队'
+      message: '绘梦AI动漫创作平台',
+      copyright: 'Copyright © 2025 灵境万维（杭州）智能科技有限公司'
     }
   }
 })
