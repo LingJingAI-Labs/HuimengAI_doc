@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "绘梦AI"
+  name: "灵境AI动漫创作平台"
   text: "专业的AI动漫创作平台"
   textsuffix: ""
   tagline: AI动漫创作一站式解决方案，让创意无限延伸

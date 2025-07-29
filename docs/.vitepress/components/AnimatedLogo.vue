@@ -35,21 +35,7 @@
           </stop>
         </linearGradient>
         
-        <!-- 动态渐变3 -->
-        <linearGradient id="paint2_linear_animated" x1="4222.38" y1="-1208.05" x2="1257.9" y2="3750.08" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#00D4FF">
-            <animate attributeName="stop-color" 
-                     values="#00D4FF;#00FF88;#00D4FF" 
-                     dur="4s" 
-                     repeatCount="indefinite"/>
-          </stop>
-          <stop offset="1" stop-color="#00FF88">
-            <animate attributeName="stop-color" 
-                     values="#00FF88;#00D4FF;#00FF88" 
-                     dur="4s" 
-                     repeatCount="indefinite"/>
-          </stop>
-        </linearGradient>
+        <!-- 动态渐变3已删除 -->
         
         <!-- 动态渐变4 -->
         <linearGradient id="paint3_linear_animated" x1="1517.91" y1="3646.06" x2="10896.8" y2="1444.38" gradientUnits="userSpaceOnUse">
@@ -126,15 +112,7 @@
                             repeatCount="indefinite"/>
          </path>
          
-         <!-- 路径3 -->
-         <path d="M1507.93 4189.29L0 3115.69C0 1640.53 1867.99 664.929 2687.51 375.391L4041.8 484.145C1393.11 2575.56 1234.75 3798.66 1507.93 4189.29Z" 
-               fill="url(#paint2_linear_animated)">
-           <animateTransform attributeName="transform" 
-                            type="scale" 
-                            values="1;1.06;1" 
-                            dur="4s" 
-                            repeatCount="indefinite"/>
-         </path>
+         <!-- 路径3已删除 -->
          
          <!-- 路径4 -->
          <path d="M5530.7 2361.15C2889.01 4315.4 1821.46 4007.7 1617.89 3609.58C1487.12 6306.21 6080.24 2948.15 8712.69 1213.43C9457.65 685.097 10185.6 827.887 10416.3 891.15C9908.28 10.2282 8832.8 -81.6469 5530.7 2361.15Z" 
@@ -153,8 +131,7 @@
               fill="url(#flowGradient)"/>
         <path d="M9824.97 1820.08C9390.08 1941.61 8562.13 1768.84 8300.39 1688.31L8929.24 1259.47C8929.24 1259.47 9299.21 1397.22 9799.93 1329.73C10103.8 1278.83 10403 1001.95 10415.2 892.734C10572.6 1641.35 9834.12 1820.08 9824.97 1820.08Z" 
               fill="url(#flowGradient)"/>
-        <path d="M1507.93 4189.29L0 3115.69C0 1640.53 1867.99 664.929 2687.51 375.391L4041.8 484.145C1393.11 2575.56 1234.75 3798.66 1507.93 4189.29Z" 
-              fill="url(#flowGradient)"/>
+        <!-- 流动光效路径3已删除 -->
         <path d="M5530.7 2361.15C2889.01 4315.4 1821.46 4007.7 1617.89 3609.58C1487.12 6306.21 6080.24 2948.15 8712.69 1213.43C9457.65 685.097 10185.6 827.887 10416.3 891.15C9908.28 10.2282 8832.8 -81.6469 5530.7 2361.15Z" 
               fill="url(#flowGradient)"/>
       </g>
@@ -175,10 +152,10 @@
         <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1.5s" repeatCount="indefinite"/>
       </circle>
       
-      <!-- 第三个光点 -->
+      <!-- 第三个光点 - 调整轨迹避开已删除的路径3 -->
       <circle r="10" fill="#00FF88" filter="url(#pulse)" opacity="0.7">
         <animateMotion dur="7s" repeatCount="indefinite" begin="1.5s">
-          <path d="M1507 4189 Q1000 3500 0 3115 Q1000 2000 2687 375 Q3000 400 4041 484"/>
+          <path d="M5530 2361 Q4000 3000 2889 4315 Q2000 4000 1617 3609 Q3000 2500 5530 2361"/>
         </animateMotion>
         <animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.8s" repeatCount="indefinite"/>
       </circle>

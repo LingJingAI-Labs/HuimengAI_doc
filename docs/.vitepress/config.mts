@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "绘梦AI",
+  title: "灵境AI动漫创作平台",
   description: "专业AI动画创作一站式平台",
   ignoreDeadLinks: true,
   head: [
@@ -101,7 +101,7 @@ export default defineConfig({
 
 
     footer: {
-      message: '绘梦AI动漫创作平台',
+      message: '灵境AI动漫创作平台动漫创作平台',
       copyright: 'Copyright © 2025 灵境万维（杭州）智能科技有限公司'
     }
   }
