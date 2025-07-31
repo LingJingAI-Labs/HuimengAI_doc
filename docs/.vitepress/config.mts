@@ -14,7 +14,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/getting-started' },
-      { text: '用户指南', link: '/guide/' },
+      { text: '用户指南', link: '/guide/data-overview' },
       { text: '更新日志', link: '/changelog/' },
       { text: '费用', link: '/credits/' },
       { text: '法律条款', link: '/legal/' }
@@ -23,36 +23,21 @@ export default defineConfig({
     sidebar: {
       '/guide/': [
         {
-          text: '基础指南',
-          items: [
-            { text: '指南概述', link: '/guide/' },
-            { text: '系统要求', link: '/getting-started#系统要求' },
-            { text: '系统概览', link: '/guide/overview' },
-            { text: '配置说明', link: '/guide/config' },
-            { text: '关键帧处理', link: '/guide/keyframe' },
-            { text: '任务管理', link: '/guide/tasks' },
-            { text: '常见问题', link: '/guide/faq' }
-          ]
-        },
-        {
           text: '项目后台',
           items: [
-            { text: '功能概览', link: '/features/' },
-            { text: '项目管理', link: '/features/project-management' },
-            { text: '素材拆解', link: '/features/material-analysis' },
-            { text: '基础设定', link: '/features/basic-settings' },
-            { text: '分镜编辑', link: '/features/storyboard-editing' }
+            { text: '数据概览', link: '/guide/data-overview' },
+            { text: '项目管理', link: '/guide/project-management' },
+            { text: '用户管理', link: '/guide/user-management' },
+            { text: '团队素材', link: '/guide/team-assets' }
           ]
         },
         {
           text: '创作工作台',
           items: [
-            { text: '分镜编辑', link: '/features/storyboard-workspace' },
-            { text: '批量转绘', link: '/features/batch-rendering' },
-            { text: '自动修复', link: '/features/auto-repair' },
-            { text: '关键帧选择', link: '/features/keyframe-selection' },
-            { text: '视频生成', link: '/features/video-generation' },
-            { text: '视频对口型', link: '/features/lip-sync' }
+            { text: '关键帧处理', link: '/guide/keyframe' },
+            { text: '图像生成', link: '/guide/image-generation' },
+            { text: '视频生成', link: '/guide/video-generation' },
+            { text: '对口型', link: '/guide/portrait-matching' }
           ]
         }
       ],
@@ -82,20 +67,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/features/': [
-        {
-          text: '功能介绍',
-          items: [
-            { text: '功能概览', link: '/features/' },
-            { text: '项目管理', link: '/features/project-management' },
-            { text: '素材拆解', link: '/features/material-analysis' },
-            { text: '基础设定', link: '/features/basic-settings' },
-            { text: '分镜编辑', link: '/features/storyboard-editing' },
-            { text: '图像生成', link: '/features/image-generation' },
-            { text: '视频生成', link: '/features/video-generation' }
-          ]
-        }
-      ]
+
     },
 
 

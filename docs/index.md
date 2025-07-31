@@ -9,6 +9,9 @@ hero:
   tagline: AI动漫创作一站式解决方案，让创意无限延伸
   actions:
     - theme: brand
+      text: 跳转官网
+      link: https://animeworkbench.lingjingai.cn
+    - theme: alt
       text: 快速开始
       link: /getting-started
     - theme: alt
