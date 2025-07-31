@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dz2Wi2T-.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/image-generation.md","filePath":"guide/image-generation.md"}'),n={name:"guide/image-generation.md"};function r(i,o,s,c,d,m){return a(),t("div")}const _=e(n,[["render",r]]);export{p as __pageData,_ as default};

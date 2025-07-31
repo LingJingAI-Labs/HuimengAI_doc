@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dz2Wi2T-.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"assets/video-generation.md","filePath":"assets/video-generation.md"}'),o={name:"assets/video-generation.md"};function s(n,r,i,c,d,p){return a(),t("div")}const f=e(o,[["render",s]]);export{m as __pageData,f as default};

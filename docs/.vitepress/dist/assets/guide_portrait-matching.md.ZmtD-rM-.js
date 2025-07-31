@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.Dz2Wi2T-.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/portrait-matching.md","filePath":"guide/portrait-matching.md"}'),r={name:"guide/portrait-matching.md"};function i(o,c,n,s,p,d){return a(),e("div")}const f=t(r,[["render",i]]);export{_ as __pageData,f as default};
