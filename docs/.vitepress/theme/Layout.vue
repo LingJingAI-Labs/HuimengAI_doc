@@ -5,16 +5,12 @@
         <WechatQRCode />
       </div>
     </template>
-    <template #home-hero-image>
-      <AnimatedLogo />
-    </template>
   </Layout>
 </template>
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import WechatQRCode from '../components/WechatQRCode.vue'
-import AnimatedLogo from '../components/AnimatedLogo.vue'
 
 const { Layout } = DefaultTheme
 </script>

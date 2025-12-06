@@ -2,18 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "绘梦AI",
+  title: "灵境AI动漫创作平台",
   description: "专业AI动画创作一站式平台",
   ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    logo: 'https://lingjingai.cn/static/logo.2cea5eb0.png',
+    siteTitle: '动漫创作平台',
     nav: [
-      { text: '首页', link: '/' },
-      { text: '快速开始', link: '/getting-started' },
-      { text: '功能介绍', link: '/features/' },
-      { text: '用户指南', link: '/guide/' },
-      { text: '费用', link: '/credits/' }
+      { text: '法律条款', link: '/legal/' }
     ],
 
     sidebar: {
@@ -61,14 +58,23 @@ export default defineConfig({
             { text: '积分参考', link: '/credits/' }
           ]
         }
+      ],
+      '/legal/': [
+        {
+          text: '法律条款',
+          items: [
+            { text: '法律条款', link: '/legal/' },
+            { text: '用户协议', link: '/legal/user-agreement' },
+            { text: '隐私政策', link: '/legal/privacy-policy' },
+            { text: '付费协议', link: '/legal/payment-policy' }
+          ]
+        }
       ]
     },
 
-
-
     footer: {
       message: '专业的 AI动漫创作平台',
-      copyright: 'Copyright © 2025 绘梦AI团队'
+      copyright: 'Copyright © 2025 灵境AI动漫创作平台团队'
     }
   }
 })

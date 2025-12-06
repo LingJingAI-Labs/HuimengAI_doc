@@ -3,30 +3,30 @@
 layout: home
 
 hero:
-  name: "绘梦AI"
+  name: "灵境AI动漫创作平台"
   text: "专业的AI动漫创作平台"
   textsuffix: ""
   tagline: AI动漫创作一站式解决方案，让创意无限延伸
   actions:
     - theme: brand
       text: 快速开始
-      link: /getting-started
+      link: https://animeworkbench.lingjingai.cn/platform/creation
     - theme: alt
       text: 功能介绍
-      link: /features/
+      link: https://lingjingai.feishu.cn/wiki/CuIyw4KvfiO1SjkiCs0cJrNbnfd?fromScene=spaceOverview
 
 features:
-  - title: 📋 项目管理
-    details: 完整的项目管理系统，支持成员协作、分镜管理和成片输出，让团队创作更高效
-  - title: 📚 素材拆解
-    details: 智能解析小说、剧本、短剧等文本内容，自动生成分镜脚本和创作素材
-  - title: 🎨 基础设定
-    details: 丰富的风格和人物设定选项，建立统一的视觉风格和角色形象
-  - title: 🎬 分镜编辑
-    details: 专业的分镜编辑工具，支持关键帧选择、参数配置和批量转绘
-  - title: 🔧 自动修复
-    details: AI智能修复功能，支持擦除重绘、自动润色，提升画面质量
-  - title: 🎥 视频生成
-    details: 多模型视频生成，支持提示词润色和对口型功能，打造专业级动画作品
+  - title: 🎨 自研多模态系统
+    details: 自研多模态AI动漫系统，100%覆盖市场主流模型，各种风格都能画
+  - title: 💎 极致性价比
+    details: 算力最高尊享7折，普通用户与官方同价，算力不加价，极致省钱
+  - title: 🌙 夜间超值特惠
+    details: 夜间生成算力折上折，再省30%，降本增效的最佳选择
+  - title: ⚡️ 任务优先生成
+    details: 任务优先处理通道，生成更快，无需漫长等待
+  - title: 👥 高效人效管理
+    details: 专业的人效管理系统，高效管理成员产出，提升团队协作效率
+  - title: ✅ 定制与陪跑
+    details: 支持功能定制，提供精品动漫陪跑，包培训、包教包会
 ---
 <Home />
