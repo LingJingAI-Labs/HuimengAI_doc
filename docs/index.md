@@ -13,7 +13,7 @@ hero:
       link: https://animeworkbench.lingjingai.cn/platform/creation
     - theme: alt
       text: 功能介绍
-      link: https://lingjingai.feishu.cn/wiki/CuIyw4KvfiO1SjkiCs0cJrNbnfd?fromScene=spaceOverview
+      link: https://lingjingai.feishu.cn/wiki/N8LiwnISGiD4ZSkpWwcc62sknOh
 
 features:
   - title: 🎨 自研多模态系统
