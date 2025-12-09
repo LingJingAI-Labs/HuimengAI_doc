@@ -467,7 +467,7 @@ Cookie是支持服务器端（或者脚本）在客户端上存储和检索信�
 
 - **公司名称**：灵境万维（杭州）智能科技有限公司
 - **官方网站**：[animeworkbench.lingjingai.cn/platform/creation](https://animeworkbench.lingjingai.cn/platform/creation)
-- **客服中心**：您可以通过平台与我们联系，反馈相关问题
+- **客服中心**：点击灵境AI动漫平台左下角，联系客服或商务
 
  
 
