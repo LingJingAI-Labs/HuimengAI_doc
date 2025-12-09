@@ -12,7 +12,6 @@
 
 请仔细阅读这些文档，它们构成了您与灵境AI动漫创作平台之间的法律协议。如果您对这些条款有任何疑问，请通过我们的联系方式与我们取得联系。
 
-- **邮箱** ：support@lingjingai.cn
 - **公司名称** ：灵境万维（杭州）智能科技有限公司
 - **官方网站** ：[https://animeworkbench.lingjingai.cn/platform/creation](https://animeworkbench.lingjingai.cn/platform/creation)
 - **客服中心** ：您可以通过平台商务微信二维码与我们联系，反馈相关问题

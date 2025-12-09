@@ -621,8 +621,6 @@
 
 如果您对本协议有任何疑问，请通过以下方式联系我们：
 
- 
-- **邮箱**：[support@lingjingai.cn](mailto:support@lingjingai.cn)
 - **公司名称**：灵境万维（杭州）智能科技有限公司
 - **官方网站**：[animeworkbench.lingjingai.cn/platform/creation](https://animeworkbench.lingjingai.cn/platform/creation)
 - **客服中心**：您可以通过平台与我们联系，反馈相关问题
